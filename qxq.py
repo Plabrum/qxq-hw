@@ -67,5 +67,5 @@ def check(submitted_questions_dict=None):
     return print(green("Everything is the right type! You're good to submit!"))
 
 
-def submit():
+def submit(name, student_id, time_spent_hrs):
     print(green("Submitted!"))
